@@ -151,7 +151,7 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(delete_first_element(list), [2, 3, 4, 5, 6])
 
     def test_Oleg_Papysev_fi_93(self):
-        self.assertEqual(4 * [2, 3], [8, 12])
+        self.assertEqual(4 * [2, 3], [2, 3, 2, 3, 2, 3, 2, 3])
 
 
 if __name__ == '__main__':
