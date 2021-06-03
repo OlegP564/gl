@@ -150,6 +150,9 @@ class TestListMethods(unittest.TestCase):
         list = [1, 2, 3, 4, 5, 6]
         self.assertEqual(delete_first_element(list), [2, 3, 4, 5, 6])
 
+    def test_Oleg_Papysev_fi_93(self):
+        self.assertEqual(4 * [2, 3], [8, 12])
+
 
 if __name__ == '__main__':
     unittest.main()
